@@ -1,0 +1,186 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Fragments.AboutFragment">
+
+    <LinearLayout
+        android:id="@+id/informationlayout"
+        android:layout_width="match_parent"
+        android:layout_height="604dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/personalinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:text="Personal Information"
+            android:textColor="#CBCBCB"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:text="City:"
+            android:textColor="#9B9B9B"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="3dp"
+            android:text="kohat, Pakistan"
+            android:textColor="#9F9E9E"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:text="Address:"
+            android:textColor="#9B9B9B"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="3dp"
+            android:text="Street no 4, bahadas colony Pindi Rd,Kohat"
+            android:textColor="#9F9E9E"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:text="Email:"
+            android:textColor="#9B9B9B"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="3dp"
+            android:text="abc_xyz@gmail.com"
+            android:textColor="#9F9E9E"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="3dp"
+            android:text="Phone Number:"
+            android:textColor="#9B9B9B"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:text="03312345678"
+            android:textColor="#9F9E9E"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:text="CNIC No:"
+            android:textColor="#9B9B9B"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="3dp"
+            android:text="14301_42424252525"
+            android:textColor="#9F9E9E"
+            android:textSize="10dp"></TextView>
+
+
+        <TextView
+            android:id="@+id/driverinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="7dp"
+            android:text="Ride Information"
+            android:textColor="#CBCBCB"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:text="Accepted Rides:"
+            android:textColor="#9B9B9B"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="3dp"
+            android:text="10"
+            android:textColor="#9F9E9E"
+            android:textSize="10dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="5dp"
+            android:text="Cancelled Rides:"
+            android:textColor="#9B9B9B"
+            android:textSize="14dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="3dp"
+            android:text="3"
+            android:textColor="#9F9E9E"
+            android:textSize="10dp"></TextView>
+
+        <Button
+            android:layout_width="279dp"
+            android:layout_height="42dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="#D60500"
+            android:text="Contact Driver"
+            android:textAllCaps="false"
+            android:textColor="#ffff"
+            android:textSize="14dp"
+            android:textStyle="bold"></Button>
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

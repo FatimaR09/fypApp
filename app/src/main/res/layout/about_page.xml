@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutPage"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/component"
+            android:layout_marginLeft="30dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Driver Name"
+            android:layout_marginLeft="100dp"
+            android:textColor="#535353"
+            android:textStyle="bold"
+            android:textSize="16dp"/></androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="185dp"
+        android:layout_marginTop="45dp"
+        android:elevation="20dp"
+        android:orientation="horizontal"
+        ><de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="15dp"
+            android:src="#CECECE"></de.hdodenhof.circleimageview.CircleImageView>
+        <LinearLayout
+        android:layout_width="196dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/TVDriverName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="10dp"
+            android:text="Driver name"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="6dp"
+            android:text="Honda Civic"
+            android:textColor="#BABABA"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="true"
+
+                        android:text="Enabled"></RadioButton>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:checked="false"
+                        android:text="Disabled "></RadioButton>
+                </RadioGroup>
+            </LinearLayout>
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:orientation="vertical">
+
+            <RatingBar
+                style="@style/Widget.AppCompat.RatingBar.Small"
+                android:layout_width="80dp"
+                android:layout_height="20dp"
+               android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:rating="5"></RatingBar>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:layout_gravity="center"
+                android:layout_marginTop="3dp"
+                android:text="22 Reviews"></TextView>
+        </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
+
